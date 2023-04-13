@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <id root="2.16.840.1.113883.19.5.99999.1" extension="TT988"/>
+  <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="34133-9" displayName="Summarization of Episode Note"/>
+  <title>Summarization of Episode Note</title>
+  <effectiveTime value="202303281728-0300"/>
+  <confidentialityCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality Code"/>
+  <languageCode code="en-US"/>
+  <setId root="2.16.840.1.113883.19.5.99999.1" extension="sTT988"/>
+  <versionNumber value="1"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.19.5.99999.1" extension="98bc2883-b467-4597-af17-ca3f3679db2f"/>
+      <addr use="HP">
+        <streetAddressLine>Húsares 2248 6E</streetAddressLine>
+        <city>Ciudad Autónoma de Buenos Aires</city>
+        <state>CABA</state>
+        <postalCode>1428</postalCode>
+        <country>Argentina</country>
+        <useablePeriod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IVL_TS">
+          <low value="20230328"/>
+        </useablePeriod>
+      </addr>
+      <addr use="H">
+        <streetAddressLine>Húsares 2248</streetAddressLine>
+        <streetAddressLine>Piso 6 Departamento E</streetAddressLine>
+        <city>Ciudad Autónoma de Buenos Aires</city>
+        <state>CABA</state>
+        <postalCode>1428</postalCode>
+        <country>Argentina</country>
+        <useablePeriod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IVL_TS">
+          <low value="19691231"/>
+          <high value="19691231"/>
+        </useablePeriod>
+      </addr>
+      <telecom value="tel:01169315830" use="MC"/>
+      <telecom value="tel:01169315830" use="EC"/>
+      <telecom value="mailto:maricebourdon@gmail.com"/>
+      <patient>
+        <name use="L">
+          <family>Bourdon</family>
+          <given>María</given>
+          <given>Cecilia</given>
+          <prefix>Mrs.</prefix>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="FEMALE"/>
+        <birthTime value="19710326"/>
+        <maritalStatusCode code="M" displayName="MARRIED" codeSystem="2.16.840.1.113883.5.2" codeSystemName="HL7 Marital Status"/>
+        <raceCode displayName="Blanco" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC"/>
+        <sdtc:raceCode nullFlavor="UNK"/>
+        <ethnicGroupCode displayName="Hispano o Latino" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC"/>
+        <languageCommunication>
+          <languageCode code="en-US"/>
+          <modeCode displayName="Expressed spoken" code="ESP" codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode"/>
+          <proficiencyLevelCode code="G" displayName="Good" codeSystem="2.16.840.1.113883.5.61" codeSystemName="LanguageAbilityProficiency"/>
+          <preferenceInd value="true"/>
+        </languageCommunication>
+      </patient>
+      <providerOrganization>
+        <id root="2.16.840.1.113883.4.6" extension=""/>
+        <name>EPA Bienestar</name>
+        <telecom use="WP" value="01169315830"/>
+        <addr use="WP">
+          <country>Argentina</country>
+          <state>CABA</state>
+          <city>Ciudad Autónoma de Buenos Aires</city>
+          <postalCode>1428</postalCode>
+          <streetAddressLine>Húsares 2248 P6 Dpto E</streetAddressLine>
+        </addr>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="202303281728-0300"/>
+    <assignedAuthor>
+      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+      <addr use="WP">
+        <country>US</country>
+        <state/>
+        <city/>
+        <postalCode/>
+        <streetAddressLine/>
+      </addr>
+      <assignedPerson>
+        <name>
+          <family>Administrator</family>
+          <given>Administrator</given>
+        </name>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.19.5.99999.1"/>
+        <name>EPA Bienestar</name>
+        <telecom value="tel:01169315830" use="WP"/>
+        <addr use="WP">
+          <country>Argentina</country>
+          <state>CABA</state>
+          <city>Ciudad Autónoma de Buenos Aires</city>
+          <postalCode>1428</postalCode>
+          <streetAddressLine>Húsares 2248 P6 Dpto E</streetAddressLine>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.4.6" extension=""/>
+        <name/>
+        <telecom value="tel:0" use="WP"/>
+        <addr>
+          <country>US</country>
+          <state/>
+          <city/>
+          <postalCode/>
+          <streetAddressLine/>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <informationRecipient>
+    <intendedRecipient>
+      <informationRecipient>
+        <name>
+          <family/>
+        </name>
+      </informationRecipient>
+      <receivedOrganization>
+        <name>org</name>
+      </receivedOrganization>
+    </intendedRecipient>
+  </informationRecipient>
+  <participant typeCode="REFB">
+    <time value="202303281728-0300"/>
+    <associatedEntity classCode="ASSIGNED">
+      <id root="9867fd6c-19a7-4902-adf6-ccc18fac7e9f" extension=""/>
+      <code nullFlavor="UNK"/>
+      <addr use="WP">
+        <country>US</country>
+      </addr>
+      <associatedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>Administrator</family>
+          <given>Administrator</given>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="PCPR">
+      <code nullFlavor="UNK"/>
+      <effectiveTime>
+        <low value="197103260000-0300"/>
+        <high value="202303281728-0300"/>
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <functionCode code="PP" displayName="Primary Performer" codeSystem="2.16.840.1.113883.12.443" codeSystemName="Provider Role">
+          <originalText>Primary Care Provider</originalText>
+        </functionCode>
+        <assignedEntity>
+          <id root="2.16.840.1.113883.19.5.99999.1" extension="provider-1"/>
+          <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy">
+            <originalText>Care Team Member</originalText>
+          </code>
+          <addr>
+            <streetAddressLine>Húsares 2248 P6 Dpto E</streetAddressLine>
+            <city>Ciudad Autónoma de Buenos Aires</city>
+            <state>CABA</state>
+            <postalCode>1428</postalCode>
+            <country>Argentina</country>
+          </addr>
+          <telecom value="tel:01169315830"/>
+          <assignedPerson>
+            <name>
+              <family>Administrator</family>
+              <given>Administrator</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <componentOf>
+    <encompassingEncounter>
+      <id root="2.16.840.1.113883.19.5.99999.1" extension="PT-1"/>
+      <effectiveTime>
+        <low value="Invalid date"/>
+        <high value="Invalid date"/>
+      </effectiveTime>
+      <responsibleParty>
+        <assignedEntity>
+          <id root="2.16.840.1.113883.19.5.99999.1"/>
+          <assignedPerson>
+            <name>
+              <family>Administrator</family>
+              <given>Administrator</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </responsibleParty>
+      <encounterParticipant typeCode="ATND">
+        <assignedEntity>
+          <id root="2.16.840.1.113883.19.5.99999.1"/>
+          <addr use="WP">
+            <streetAddressLine>Húsares 2248 P6 Dpto E</streetAddressLine>
+            <city>Ciudad Autónoma de Buenos Aires</city>
+            <state>CABA</state>
+            <postalCode>1428</postalCode>
+            <country>Argentina</country>
+          </addr>
+          <telecom value="tel:01169315830" use="WP"/>
+          <assignedPerson>
+            <name>
+              <family>Administrator</family>
+              <given>Administrator</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </encounterParticipant>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.500" extension="2019-07-01"/>
+          <code code="85847-2" displayName="Patient Care Teams" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Patient Care Teams</title>
+          <text>
+            <table width="100%" border="1">
+              <thead>
+                <tr>
+                  <th>Performer Name</th>
+                  <th>Performer Role</th>
+                  <th>Performer Since Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="careTeam1">Administrator Administrator</td>
+                  <td>Family Medicine</td>
+                  <td>2023-03-28</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.500" extension="2019-07-01"/>
+              <id root="f6de05d8-df43-4ee4-acb5-b275bbd453de"/>
+              <code code="86744-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Care Team Information"/>
+              <statusCode code="active"/>
+              <effectiveTime>
+                <low value="202303281728-0300"/>
+              </effectiveTime>
+              <author typeCode="AUT">
+                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                <time value="202303202044-0300"/>
+                <assignedAuthor>
+                  <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                  <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                  <assignedPerson>
+                    <name>
+                      <family>Administrator</family>
+                      <given>Administrator</given>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                    <name>EPA Bienestar</name>
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+              <component>
+                <act classCode="PCPR" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.500.1" extension="2019-07-01"/>
+                  <id root="23b50bed-4454-492a-b9b2-74c7f24b3c26"/>
+                  <code code="85847-2" displayName="Care Team Information" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                  <statusCode code="active"/>
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low value="202303281728-0300"/>
+                  </effectiveTime>
+                  <performer typeCode="PRF">
+                    <functionCode xmlns="urn:hl7-org:sdtc" code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy">
+                      <originalText xmlns="urn:hl7-org:v3">
+                        <reference value="#teamMember1"/>
+                      </originalText>
+                    </functionCode>
+                    <assignedEntity>
+                      <id root="2.16.840.1.113883.19.5.99999.1" extension="provider-1"/>
+                      <addr>
+                        <country>Argentina</country>
+                      </addr>
+                      <telecom value="tel:0" use="WP"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                    </assignedEntity>
+                  </performer>
+                </act>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+          <code code="48765-2" displayName="Allergies, adverse reactions, alerts" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Allergies, adverse reactions, alerts</title>
+          <text>No known Allergies and Intolerances</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="CONC" displayName="Concerns" codeSystem="2.16.840.1.113883.5.6"/>
+              <statusCode code="active"/>
+              <effectiveTime>
+                <low value="20230328"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id nullFlavor="UNK"/>
+                  <code code="ASSERTION" displayName="Assertion" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20230328"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Allergy to substance (disorder)">
+                    <originalText>
+                      <reference value="#reaction1"/>
+                    </originalText>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code nullFlavor="NA"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+          <code code="10160-0" displayName="History of medication use" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>History of medication use</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+          <code code="11450-4" displayName="Problem List" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Problem List</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.7"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+          <code code="47519-4" displayName="History of Procedures" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>History of Procedures</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+          <code code="30954-2" displayName="Relevant Dx tests/lab data" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Relevant Dx tests/lab data</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.14" extension="2014-06-09"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+          <code code="47420-5" displayName="Functional Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Functional Status</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1"/>
+          <code code="46240-8" displayName="Encounters" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Encounters</title>
+          <text>
+            <table width="100%" border="1">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Facility</th>
+                  <th>Date of Service</th>
+                  <th>Diagnosis/Complaint</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="Encounter1">Office Visit | Reason not given</td>
+                  <td>EPA Bienestar</td>
+                  <td>03/28/2023</td>
+                  <td>No Data Available</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="c09dd3b2-5c74-e536-cfd4-f4961cfe7541" extension="ZGVmYXVsdDg="/>
+              <code code="185347001" displayName="Office Visit | Reason not given" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                <originalText>
+                  <reference value="#Encounter1"/>
+                </originalText>
+                <translation code="AMB" displayName="Ambulatory" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
+              </code>
+              <effectiveTime value="202303281710-0300"/>
+              <performer>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.4.6" extension=""/>
+                  <code code="23278007" displayName="Community health physician" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <assignedPerson>
+                    <name>
+                      <family>Administrator</family>
+                      <given>Administrator</given>
+                    </name>
+                  </assignedPerson>
+                </assignedEntity>
+              </performer>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <code code="1160-1" displayName=",Húsares 2248 P6 Dpto E,Ciudad Autónoma de Buenos Aires,CABA 1428" codeSystem="2.16.840.1.113883.6.259" codeSystemName="HealthcareServiceLocation"/>
+                  <addr>
+                    <streetAddressLine>Húsares 2248 P6 Dpto E</streetAddressLine>
+                    <city>Ciudad Autónoma de Buenos Aires</city>
+                    <state>CABA</state>
+                    <postalCode>1428</postalCode>
+                    <country>Argentina</country>
+                  </addr>
+                  <telecom value="tel:01169315830" use="WP"/>
+                  <playingEntity classCode="PLC">
+                    <name>EPA Bienestar</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.2"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+          <code code="11369-6" displayName="Immunizations" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Immunizations</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component/>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+          <code code="18776-5" displayName="Treatment Plan" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Treatment Plan</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+          <code code="61146-7" displayName="Goals" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Goals</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01"/>
+          <code code="75310-3" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Health Concerns Document</title>
+          <text>Health Concerns Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09"/>
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+          <code code="42349-1" displayName="Reason for Referral" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Reason for Referral</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01"/>
+          <code code="10190-7" displayName="Mental Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Mental Status</title>
+          <text>Mental Status Not Available</text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+          <code code="29762-2" displayName="Social History" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Social History</title>
+          <text>
+            <table width="100%" border="1">
+              <thead>
+                <tr>
+                  <th>Social History Element</th>
+                  <th>Description</th>
+                  <th>Effective Dates</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="social1">Smoking</td>
+                  <td>No Data Available</td>
+                  <td>2023-03-28</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.200" extension="2016-06-01"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.200"/>
+              <code code="76689-9" displayName="Sex Assigned At Birth" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+              <statusCode code="completed"/>
+              <value xsi:type="CD" displayName="Female" code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender"/>
+              <author typeCode="AUT">
+                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                <time value="202303202044-0300"/>
+                <assignedAuthor>
+                  <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                  <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                  <assignedPerson>
+                    <name>
+                      <family>Administrator</family>
+                      <given>Administrator</given>
+                    </name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                    <name>EPA Bienestar</name>
+                  </representedOrganization>
+                </assignedAuthor>
+              </author>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+          <code code="8716-3" displayName="Vital Signs" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Vital Signs</title>
+          <text>
+            <table width="100%" border="1">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Body Temperature</th>
+                  <th>Systolic[90-140 mmHg]</th>
+                  <th>Diastolic[60-90 mmHg]</th>
+                  <th>Heart Rate</th>
+                  <th>Height</th>
+                  <th>Weight Measured</th>
+                  <th>BMI (Body Mass Index)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2023-03-28</td>
+                  <td ID="vital1">37.2 Cel</td>
+                  <td ID="vital2">125 mm[Hg]</td>
+                  <td ID="vital3">80 mm[Hg]</td>
+                  <td ID="vital4">67 /min</td>
+                  <td ID="vital5">0.00 cm</td>
+                  <td ID="vital6">No Data Available</td>
+                  <td ID="vital7">28.09 kg/m2</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" extension="2015-08-01"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDg="/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Vital signs">
+                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs"/>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20230328"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDlicHM="/>
+                  <code code="8480-6" displayName="Blood Pressure Systolic" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital1"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="125" unit="mm[Hg]"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDlicGQ="/>
+                  <code code="8462-4" displayName="Blood Pressure Diastolic" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital2"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="80" unit="mm[Hg]"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDloZWlnaHQ="/>
+                  <code code="8302-2" displayName="Height" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital3"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="0.00" unit="cm"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDlCTUk="/>
+                  <code code="39156-5" displayName="BMI (Body Mass Index)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital4"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="28.09" unit="kg/m2"/>
+                  <interpretationCode displayName="High" code="H" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDlwdWxzZQ=="/>
+                  <code code="8867-4" displayName="Heart Rate" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital5"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="67" unit="/min"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="2.16.840.1.113883.3.140.1.0.6.10.14.2" extension="ZGVmYXVsdDlicmVhdGg="/>
+                  <code code="9279-1" displayName="Respiratory Rate" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital6"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="16" unit="/min"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="2.16.840.1.113883.3.140.1.0.6.10.14.3" extension="ZGVmYXVsdDl0ZW1wZXJhdHVyZQ=="/>
+                  <code code="8310-5" displayName="Body Temperature" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital7"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="37.2" unit="Cel"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="c6f88321-67ad-11db-bd13-0800200c9a66" extension="ZGVmYXVsdDlveHlnZW5fc2F0dXJhdGlvbg=="/>
+                  <code code="59408-5" displayName="O2 % BldC Oximetry" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                    <originalText>
+                      <reference value="#vital8"/>
+                    </originalText>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20230328"/>
+                  <value xsi:type="PQ" value="98" unit="%"/>
+                  <interpretationCode displayName="Normal" code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 Result Interpretation"/>
+                  <author typeCode="AUT">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="202303281415-0300"/>
+                    <assignedAuthor>
+                      <id root="9867fdcc-4f73-4eda-9bef-51ea38a34e0c" extension="NI"/>
+                      <code code="207Q00000X" displayName="Family Medicine" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="ValueSet Healthcare Provider Taxonomy (HIPAA)"/>
+                      <assignedPerson>
+                        <name>
+                          <family>Administrator</family>
+                          <given>Administrator</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.4.6" extension="NI"/>
+                        <name>EPA Bienestar</name>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI">
+          <templateId root="2.16.840.1.113883.10.20.22.2.23" extension="2014-06-09"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.23"/>
+          <code code="46264-8" displayName="Medical Equipment" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Medical Equipment</title>
+          <text>Not Available</text>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

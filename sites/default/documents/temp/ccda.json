@@ -1,0 +1,593 @@
+{
+    "serverRoot": "",
+    "document_location": "/var/www/html/openemr/sites/default",
+    "username": "",
+    "password": "",
+    "hie": "MyHealth",
+    "time_start": "19710326000000-0300",
+    "time_end": "20230328172820-0300",
+    "client_id": "",
+    "created_time": "20230328172820",
+    "created_time_timezone": "20230328172820-0300",
+    "timezone_local_offset": "-0300",
+    "send": "0",
+    "doc_type": "",
+    "assignedEntity": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+    },
+    "telecom": {
+        "$": {
+            "use": "WP",
+            "value": ""
+        }
+    },
+    "representedOrganization": {
+        "name": "",
+        "telecom": {
+            "$": {
+                "use": "WP",
+                "value": ""
+            }
+        },
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+    },
+    "referral_reason": {
+        "0": {
+            "text": ""
+        },
+        "1": ""
+    },
+    "patient": {
+        "author": {
+            "time": "2023-03-20 23:44:03",
+            "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+            "physician_type": "Family Medicine",
+            "physician_type_code": "207Q00000X",
+            "physician_type_system": "2.16.840.1.114222.4.11.1066",
+            "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+            "streetAddressLine": "",
+            "facility_oid": "2.16.840.1.113883.4.6",
+            "facility_npi": "",
+            "facility_name": "EPA Bienestar",
+            "city": "",
+            "state": "",
+            "postalCode": "",
+            "country": "",
+            "telecom": "",
+            "fname": "Administrator",
+            "lname": "Administrator",
+            "npi": ""
+        },
+        "id": "1",
+        "uuid": "98bc2883-b467-4597-af17-ca3f3679db2f",
+        "encounter": "",
+        "prefix": "Mrs.",
+        "fname": "María",
+        "mname": "Cecilia",
+        "lname": "Bourdon",
+        "suffix": "",
+        "previous_names": "",
+        "birth_fname": "",
+        "birth_mname": "",
+        "birth_lname": "",
+        "use": "HP",
+        "street": {
+            "0": "Húsares 2248 6E",
+            "1": ""
+        },
+        "city": "Ciudad Autónoma de Buenos Aires",
+        "state": "CABA",
+        "postalCode": "1428",
+        "country": "Argentina",
+        "previous_addresses": {
+            "address": {
+                "use": "home",
+                "street": {
+                    "0": "Húsares 2248",
+                    "1": "Piso 6 Departamento E"
+                },
+                "city": "Ciudad Autónoma de Buenos Aires",
+                "state": "CABA",
+                "postalCode": "1428",
+                "country": "Argentina",
+                "period_start": "1969-12-31",
+                "period_end": "1969-12-31"
+            }
+        },
+        "ssn": "",
+        "dob": "19710326",
+        "gender": "Female",
+        "gender_code": "F",
+        "status": "married",
+        "status_code": "M",
+        "phone_home": "",
+        "phone_mobile": "01169315830",
+        "phone_work": "",
+        "phone_emergency": "01169315830",
+        "email": "maricebourdon@gmail.com",
+        "religion": "",
+        "religion_code": "",
+        "race": "Blanco",
+        "race_code": "2106-3",
+        "race_group": "null_flavor",
+        "race_group_code": "",
+        "ethnicity": "Hispano o Latino",
+        "ethnicity_code": "2135-2",
+        "language": "",
+        "language_code": ""
+    },
+    "guardian": {
+        "fname": "María",
+        "lname": "Bourdon",
+        "code": "",
+        "relation": "",
+        "display_name": "",
+        "street": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": ""
+    },
+    "encounter_provider": {
+        "facility_id": "3",
+        "facility_npi": "",
+        "facility_oid": "",
+        "facility_name": "EPA Bienestar",
+        "facility_phone": "01169315830",
+        "facility_fax": "000-000-0000",
+        "facility_street": "Húsares 2248 P6 Dpto E",
+        "facility_city": "Ciudad Autónoma de Buenos Aires",
+        "facility_state": "CABA",
+        "facility_postal_code": "1428",
+        "facility_country_code": "Argentina"
+    },
+    "author": {
+        "time": "2023-03-28 17:28:20-0300",
+        "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+        "physician_type": "Family Medicine",
+        "physician_type_code": "207Q00000X",
+        "physician_type_system": "2.16.840.1.114222.4.11.1066",
+        "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "",
+        "fname": "Administrator",
+        "lname": "Administrator",
+        "npi": ""
+    },
+    "data_enterer": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "0",
+        "fname": "",
+        "lname": ""
+    },
+    "informer": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "0",
+        "fname": "",
+        "lname": "",
+        "personal_informant": ""
+    },
+    "custodian": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "0",
+        "name": "",
+        "organization": ""
+    },
+    "information_recipient": {
+        "fname": "",
+        "lname": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "phonew1": ""
+    },
+    "legal_authenticator": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "0",
+        "fname": "",
+        "lname": ""
+    },
+    "document_participants": {
+        "participant": {
+            "date_time": "2023-03-28 17:28:20-0300",
+            "fname": "Administrator",
+            "lname": "Administrator",
+            "organization": "",
+            "organization_id": "9867fd6c-19a7-4902-adf6-ccc18fac7e9f",
+            "organization_npi": "",
+            "organization_taxonomy": "",
+            "organization_taxonomy_desc": "",
+            "street": "",
+            "city": "",
+            "state": "",
+            "postalCode": "",
+            "phonew1": "",
+            "address_use": "WP",
+            "type": "REFB"
+        }
+    },
+    "authenticator": {
+        "streetAddressLine": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": "",
+        "telecom": "0",
+        "fname": "",
+        "lname": ""
+    },
+    "primary_care_provider": {
+        "provider": {
+            "author": {
+                "time": "2023-03-20 23:44:03",
+                "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+                "physician_type": "Family Medicine",
+                "physician_type_code": "207Q00000X",
+                "physician_type_system": "2.16.840.1.114222.4.11.1066",
+                "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+                "streetAddressLine": "",
+                "facility_oid": "2.16.840.1.113883.4.6",
+                "facility_npi": "",
+                "facility_name": "EPA Bienestar",
+                "city": "",
+                "state": "",
+                "postalCode": "",
+                "country": "",
+                "telecom": "",
+                "fname": "Administrator",
+                "lname": "Administrator",
+                "npi": ""
+            },
+            "prefix": "",
+            "fname": "Administrator",
+            "lname": "Administrator",
+            "speciality": "",
+            "organization": "EPA Bienestar",
+            "telecom": "0",
+            "street": "",
+            "city": "",
+            "state": "",
+            "zip": "",
+            "table_id": "provider-1",
+            "npi": "",
+            "physician_type": "Community health physician",
+            "physician_type_code": "23278007",
+            "taxonomy": "207Q00000X",
+            "taxonomy_description": "Family Medicine",
+            "provider_since": "2023-03-28 17:28:20-0300"
+        }
+    },
+    "care_team": {
+        "author": {
+            "time": "2023-03-20 23:44:03",
+            "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+            "physician_type": "Family Medicine",
+            "physician_type_code": "207Q00000X",
+            "physician_type_system": "2.16.840.1.114222.4.11.1066",
+            "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+            "streetAddressLine": "",
+            "facility_oid": "2.16.840.1.113883.4.6",
+            "facility_npi": "",
+            "facility_name": "EPA Bienestar",
+            "city": "",
+            "state": "",
+            "postalCode": "",
+            "country": "",
+            "telecom": "",
+            "fname": "Administrator",
+            "lname": "Administrator",
+            "npi": ""
+        },
+        "is_active": "active"
+    },
+    "encounter_list": {
+        "encounter": {
+            "extension": "ZGVmYXVsdDg=",
+            "sha_extension": "c09dd3b2-5c74-e536-cfd4-f4961cfe7541",
+            "encounter_id": "8",
+            "code": "",
+            "code_type": "",
+            "code_description": "",
+            "visit_category": "Office Visit",
+            "performer": "Administrator  Administrator",
+            "physician_type_code": "23278007",
+            "physician_type": "Community health physician",
+            "physician_code_type": "SNOMED CT",
+            "npi": "",
+            "fname": "Administrator",
+            "mname": "",
+            "lname": "Administrator",
+            "street": "",
+            "city": "",
+            "state": "",
+            "zip": "",
+            "work_phone": "",
+            "location": "EPA Bienestar",
+            "location_details": ",Húsares 2248 P6 Dpto E,Ciudad Autónoma de Buenos Aires,CABA 1428",
+            "date": "2023-03-28 17:10:00-0300",
+            "date_formatted": "20230328",
+            "facility_extension": "ZGVmYXVsdDM=",
+            "facility_sha_extension": "ebc04722-0c75-b9e5-f74f-9c52a19bc40b",
+            "facility_npi": "",
+            "facility_oid": "",
+            "facility_name": "EPA Bienestar",
+            "facility_address": "Húsares 2248 P6 Dpto E",
+            "facility_city": "Ciudad Autónoma de Buenos Aires",
+            "facility_state": "CABA",
+            "facility_country": "Argentina",
+            "facility_zip": "1428",
+            "facility_phone": "01169315830",
+            "encounter_procedures": "",
+            "encounter_problems": {
+                "problem": {
+                    "extension": "",
+                    "code": "",
+                    "code_type": "",
+                    "text": "",
+                    "status": ""
+                }
+            },
+            "encounter_diagnosis": {
+                "extension": "",
+                "code": "",
+                "code_type": "",
+                "text": "",
+                "status": ""
+            },
+            "encounter_reason": "Reason not given"
+        }
+    },
+    "primary_diagnosis": {
+        "root": "",
+        "extension": "",
+        "encounter_date": "",
+        "encounter_end_date": "",
+        "code": "",
+        "code_type": "",
+        "text": "",
+        "status": ""
+    },
+    "allergies": "",
+    "medications": "",
+    "problem_lists": "",
+    "procedures": "",
+    "results": "",
+    "immunizations": "",
+    "planofcare": "",
+    "goals": "",
+    "health_concerns": "",
+    "functional_status": "",
+    "mental_status": "",
+    "clinical_instruction": "",
+    "medical_devices": "",
+    "clinical_notes": "",
+    "progressNotes": "",
+    "hospitalCourse": {
+        "item": ""
+    },
+    "dischargediagnosis": {
+        "item": ""
+    },
+    "dischargemedication": {
+        "item": ""
+    },
+    "procedure_notes": {
+        "complications": {
+            "age": "52",
+            "item": ""
+        },
+        "procedure_diagnosis": {
+            "age": "52",
+            "item": ""
+        },
+        "procedure_description": {
+            "item": ""
+        },
+        "procedure_indications": {
+            "item": ""
+        }
+    },
+    "operative_notes": {
+        "anesthesia": {
+            "item": ""
+        },
+        "post_operative_diag": {
+            "item": ""
+        },
+        "pre_operative_diag": {
+            "item": ""
+        },
+        "blood_loss": {
+            "item": ""
+        },
+        "procedure_findings": {
+            "item": "",
+            "age": "52"
+        },
+        "procedure_specimens": {
+            "item": ""
+        }
+    },
+    "consultation_notes": {
+        "hp": {
+            "item": ""
+        },
+        "physical_exam": {
+            "item": ""
+        }
+    },
+    "history_physical": {
+        "chief_complaint": {
+            "item": ""
+        },
+        "general_status": {
+            "item": ""
+        },
+        "history_past_illness": {
+            "item": ""
+        },
+        "review_of_systems": {
+            "item": ""
+        },
+        "vitals_list": {
+            "vitals": {
+                "author": {
+                    "time": "2023-03-28 17:15:25",
+                    "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+                    "physician_type": "Family Medicine",
+                    "physician_type_code": "207Q00000X",
+                    "physician_type_system": "2.16.840.1.114222.4.11.1066",
+                    "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+                    "streetAddressLine": "",
+                    "facility_oid": "2.16.840.1.113883.4.6",
+                    "facility_npi": "",
+                    "facility_name": "EPA Bienestar",
+                    "city": "",
+                    "state": "",
+                    "postalCode": "",
+                    "country": "",
+                    "telecom": "",
+                    "fname": "Administrator",
+                    "lname": "Administrator",
+                    "npi": ""
+                },
+                "extension": "ZGVmYXVsdDg=",
+                "sha_extension": "c6f88321-67ad-11db-bd13-0800200c9a66",
+                "date": "2023-03-28",
+                "effectivetime": "2023-03-28 17:14:00",
+                "temperature": "37.2",
+                "unit_temperature": "Cel",
+                "extension_temperature": "ZGVmYXVsdDl0ZW1wZXJhdHVyZQ==",
+                "bpd": "80",
+                "extension_bpd": "ZGVmYXVsdDlicGQ=",
+                "bps": "125",
+                "extension_bps": "ZGVmYXVsdDlicHM=",
+                "head_circ": "",
+                "extension_head_circ": "ZGVmYXVsdDloZWFkX2NpcmM=",
+                "pulse": "67",
+                "extension_pulse": "ZGVmYXVsdDlwdWxzZQ==",
+                "height": "0.00",
+                "extension_height": "ZGVmYXVsdDloZWlnaHQ=",
+                "unit_height": "cm",
+                "oxygen_saturation": "98",
+                "extension_oxygen_saturation": "ZGVmYXVsdDlveHlnZW5fc2F0dXJhdGlvbg==",
+                "breath": "16",
+                "extension_breath": "ZGVmYXVsdDlicmVhdGg=",
+                "weight": "0.00",
+                "extension_weight": "ZGVmYXVsdDl3ZWlnaHQ=",
+                "unit_weight": "kg",
+                "BMI": "28.09",
+                "extension_BMI": "ZGVmYXVsdDlCTUk=",
+                "BMI_status": "Overweight",
+                "extension_oxygen_flow_rate": "ZGVmYXVsdDlveHlnZW5fZmxvd19yYXRl",
+                "oxygen_flow_rate": "",
+                "extension_ped_weight_height": "ZGVmYXVsdDlwZWRfd2VpZ2h0X2hlaWdodA==",
+                "ped_weight_height": "",
+                "extension_ped_bmi": "ZGVmYXVsdDlwZWRfYm1p",
+                "ped_bmi": "",
+                "extension_ped_head_circ": "ZGVmYXVsdDlwZWRfaGVhZF9jaXJj",
+                "ped_head_circ": "",
+                "extension_inhaled_oxygen_concentration": "ZGVmYXVsdDlpbmhhbGVkX294eWdlbl9jb25jZW50cmF0aW9u",
+                "inhaled_oxygen_concentration": ""
+            }
+        },
+        "social_history": {
+            "history_element": {
+                "0": {
+                    "author": {
+                        "time": "2023-03-28 17:23:40",
+                        "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+                        "physician_type": "Family Medicine",
+                        "physician_type_code": "207Q00000X",
+                        "physician_type_system": "2.16.840.1.114222.4.11.1066",
+                        "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+                        "streetAddressLine": "",
+                        "facility_oid": "2.16.840.1.113883.4.6",
+                        "facility_npi": "",
+                        "facility_name": "EPA Bienestar",
+                        "city": "",
+                        "state": "",
+                        "postalCode": "",
+                        "country": "",
+                        "telecom": "",
+                        "fname": "Administrator",
+                        "lname": "Administrator",
+                        "npi": ""
+                    },
+                    "extension": "c21va2luZ2RlZmF1bHQz",
+                    "sha_extension": "9b56c25d-9104-45ee-9fa4-e0f3afaa01c1",
+                    "element": "Smoking",
+                    "description": "",
+                    "status_code": "",
+                    "status": "",
+                    "date": "",
+                    "date_formatted": "",
+                    "code": "229819007"
+                },
+                "1": {
+                    "author": {
+                        "time": "2023-03-28 17:23:40",
+                        "id": "9867fdcc-4f73-4eda-9bef-51ea38a34e0c",
+                        "physician_type": "Family Medicine",
+                        "physician_type_code": "207Q00000X",
+                        "physician_type_system": "2.16.840.1.114222.4.11.1066",
+                        "physician_type_system_name": "ValueSet Healthcare Provider Taxonomy (HIPAA)",
+                        "streetAddressLine": "",
+                        "facility_oid": "2.16.840.1.113883.4.6",
+                        "facility_npi": "",
+                        "facility_name": "EPA Bienestar",
+                        "city": "",
+                        "state": "",
+                        "postalCode": "",
+                        "country": "",
+                        "telecom": "",
+                        "fname": "Administrator",
+                        "lname": "Administrator",
+                        "npi": ""
+                    },
+                    "extension": "YWxjb2hvbGRlZmF1bHQz",
+                    "sha_extension": "37f76c51-6411-4e1d-8a37-957fd49d2cef",
+                    "element": "Alcohol",
+                    "description": "2 copas",
+                    "status_code": "11",
+                    "status": "completed",
+                    "date": "",
+                    "date_formatted": "",
+                    "code": "160573003"
+                }
+            }
+        }
+    },
+    "document": ""
+}
