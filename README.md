@@ -121,4 +121,5 @@ Key members
 </li>
 </ul>
 <b>DATA from OpenEMR</b>
+
 ![Image text](https://github.com/drdalessandro/imagenes/blob/main/DATA-AWS-HealthLake-From-OpenEMR.png)
