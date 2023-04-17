@@ -52,7 +52,7 @@ Key members
 <tbody>
 <tr>
 <td>Oscar Mario Arango Rivera</td>
-<td>Marketing Lead Development Representative LATAM en AWS</td>
+<td>Marketing Lead Development Representative LATAM</td>
 <td><a href="mailto:mail@example.com">No disponible</a></td>
 </tr>
 <tr>
