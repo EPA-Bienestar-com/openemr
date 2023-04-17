@@ -85,3 +85,38 @@ Key members
 </tr>
 </tbody>
 </table>
+
+<h2 dir="auto"></h2>
+<p dir="auto"><strong>Summary of Objectives</strong></p>
+<ul dir="auto">
+<li>Deployment
+<ul dir="auto">
+<li>
+<p dir="auto">Analytics</p>
+<ul dir="auto">
+<li>Amazon HealthLake</li>
+<li>Amazon QuickSight</li>
+</ul>
+</li>
+<li>
+<p dir="auto">Cloud Deployment</p>
+<ul dir="auto">
+<li>Elastic Compute Cloud</li>
+<li>Relational Database Service</li>
+<li>Application Load Balancer</li>
+<li>AWS CloudFormation</li>
+<li>Creation of networking components (VPC, Subnets, Routing)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Enablement
+<ul dir="auto">
+<li>Healthcare Standards
+<ul dir="auto">
+<li>FHIR</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
