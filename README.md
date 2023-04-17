@@ -1,4 +1,4 @@
-# HealthLake FHIR | DATA From Medplum & OpenEMR
+# HealthLake FHIR | DATA from OpenEMR
 
 🔸 Engagement Handoff
 
@@ -120,5 +120,5 @@ Key members
 </ul>
 </li>
 </ul>
-
+<b>DATA from OpenEMR</b>
 ![Image text](https://github.com/drdalessandro/imagenes/blob/main/DATA-AWS-HealthLake-From-OpenEMR.png)
