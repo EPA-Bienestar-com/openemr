@@ -120,3 +120,4 @@ Key members
 </ul>
 </li>
 </ul>
+![Image text](https://www.epa-bienestar.com/assets/img/DATA-AWS-HealthLake-From-OpenEMR.png.jpg)
