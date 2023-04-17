@@ -1,5 +1,4 @@
-# openemr
-Open-EMR | Registros Electrónicos Médicos para consultas Profesionales presenciales y virtuales.
+# HealthLake FHIR From Medplum & OpenEMR
 
 🔸 Engagement Handoff
 
@@ -56,7 +55,7 @@ Key members
 <td>Marketing Lead Development Representative LATAM en AWS</td>
 <td><a href="mailto:mail@example.com">No disponible</a></td>
 </tr>
-}<tr>
+<tr>
 <td>Natalia Reis</td>
 <td>Startup Representative at Amazon Web Services</td>
 <td><a href="mailto:mail@example.com">No disponible</a></td>
@@ -75,9 +74,14 @@ Key members
 </thead>
 <tbody>
 <tr>
-<td>Oscar Mario Arango Rivera</td>
-<td>Marketing Lead Development Representative LATAM en AWS</td>
-<td><a href="mailto:mail@example.com">mail@example.com</a></td>
+<td>Florencia Bosco</td>
+<td>Sales Director</td>
+<td><a href="mailto:mail@example.com">No disponible</a></td>
+</tr>
+<tr>
+<td>Juan Diaz</td>
+<td>Lead Solutions Architect | Sr DevOps Engineer</td>
+<td><a href="mailto:mail@example.com">No disponible</a></td>
 </tr>
 </tbody>
 </table>
